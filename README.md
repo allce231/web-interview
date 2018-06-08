@@ -9,13 +9,14 @@ css篇
 
 实践篇
 1，工厂模式 es6工厂模式
+
+```javascript
 function obj(){
   var o = new Object();
   o.name = 'test';
   o.say(){};
   return o;
 }
-
 
 class person{
   constructor(){
@@ -25,13 +26,13 @@ class person{
   
   }
 }
-
+```
 2，lazyman
 
 3，转换为tree树状结构
 
 4，js 常见类型 clone
-
+```javascript
 function clone(obj){
 	var o;
  	if(typeof obj == 'object'){
@@ -45,5 +46,5 @@ function clone(obj){
     }
 	return o;
 }
-
+```
 
